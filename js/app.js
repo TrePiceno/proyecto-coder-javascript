@@ -7,7 +7,7 @@ const pintarProductos = () => {
         .then((stock) => {
             stock.forEach((item) => {
                 const div = document.createElement('div');
-        div.className = 'box card col-xl-4 col-lg-6';
+                div.className = 'box card col-xl-4 col-lg-6';
 
         div.innerHTML = `
             <img class="card-img-top" src="${item.img}">
